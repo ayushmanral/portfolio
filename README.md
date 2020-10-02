@@ -1,3 +1,3 @@
-Demo Link : [https://ayushmanral.github.io/portfolio/]
+Demo Link : https://ayushmanral.github.io/portfolio/
 
 #Portfolio
