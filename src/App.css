@@ -1,4 +1,5 @@
 .App {
+  display: flex;
   text-align: center;
 }
 
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 20%;
 }
 
 .App-link {
@@ -35,4 +37,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main {
+  flex-basis: 80%;
 }
