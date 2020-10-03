@@ -10,7 +10,7 @@ function Navbar(){
                 <NavItem text="About" sectionID="section-2"/>
                 <NavItem text="Skills" sectionID="section-3"/>
                 <NavItem text="Projects" sectionID="section-4"/>
-                <NavItem text="Hire Me" sectionID="section-5"/>
+                <NavItem text="Contact" sectionID="section-5"/>
             </div>
         </section>
     );
