@@ -1,5 +1,4 @@
 .App {
-  background-color: #212121;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -19,7 +18,6 @@
 }
 
 .main {
-  background: #272c34;
   height: 100%;
   position: relative;
   z-index: 10;
