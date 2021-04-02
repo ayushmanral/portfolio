@@ -44,7 +44,7 @@
 }
 
 .NavItem:hover {
-  color: #e18425;
+  color: #ffde02;
 }
 
 .NavItem:before {
@@ -52,7 +52,7 @@
   width: 0;
   height: 2px;
   display: inline-block;
-  background-color: #e18425;
+  background-color: #ffde02;
   vertical-align: middle;
   transition: all 0.4s;
 }

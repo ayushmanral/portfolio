@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px){
+  #AboutSection .header-image-section {
+    display: none;
+  }
+
+  #AboutSection .header-text-section {
+    flex-basis: 100%;
+  }
+
+  #AboutSection .header-text-section .text-block {
+    max-width: 300px;
+  }
+}
