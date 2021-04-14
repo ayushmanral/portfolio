@@ -7,7 +7,7 @@ const ResumeCard = ({ year, course, institute, details }) => {
           <div className="textblock">
               <p className="yearText">{year}</p>
               <p className="courseNameText">{course}</p>
-              <p className="instituteText">{institute}</p>
+              <p className="instituteText mt-10 mb-10">{institute}</p>
               <p className="detailsText">{details}</p>
           </div>
       </div>

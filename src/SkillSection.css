@@ -1,0 +1,93 @@
+#SkillSection {
+  flex-direction: column;
+}
+
+.technologyTitle p {
+  font-size: 34px;
+  background-color: #000;
+  width: 200px;
+}
+
+.loadBar {
+  width: 60%;
+  position: relative;
+  display: inline-flex;
+  gap: 1px;
+}
+
+.loadBar .loadAccent {
+  display: inline-block;
+  height: 40px;
+  width: 5px;
+  background-color: #ffde00;
+  border-radius: 5px;
+  margin: 0px 1px;
+  transform: skew(-30deg);
+}
+
+.technologyTitle {
+  background-color: #000;
+  width: 40%;
+  height: 40px;
+  z-index: 1;
+  transform: skew(-30deg) translateY(-5px);
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px #ffde00;
+}
+
+.skill-card {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  grid-gap: 8px;
+  gap: 8px;
+}
+
+.technologyTitle:after {
+  content: attr(data-content);
+  transform: skew(0);
+  display: inline-block;
+  font-size: 18px;
+}
+
+.skill-cards-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+}
+
+.loadBar .loadAccent[data-accent="false"] {
+  background-color: #241c00;
+}
+
+@media screen and (max-width: 767px){
+  #SkillSection {
+    justify-content: flex-start;
+    min-height: auto;
+  }
+
+  .skill-cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .loadBar .loadAccent {
+    width: 4px;
+  }
+
+  .technologyTitle {
+    box-shadow: 4px 4px 0px #ffde00;
+  }
+
+  .skill-card {
+    grid-gap: 6px;
+  }
+
+  #SkillSection .skill-cards-wrapper {
+    margin-top: 0;
+    margin-bottom: 70px;
+  }
+}

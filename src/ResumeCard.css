@@ -30,5 +30,23 @@
 .instituteText {
   font-weight: 700;
   text-decoration: underline;
-  line-height: 2;
+}
+
+@media screen and (max-width:1024px){
+  .ResumeCard_wrapper .textblock .yearText{
+    font-size: 24px;
+  }
+  .ResumeCard_wrapper .textblock .courseNameText{
+    font-size: 20px  
+  }
+}
+
+@media screen and (max-width:767px){
+  .resume-cards-wrapper{
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+  .ResumeCard_wrapper{
+    min-height: auto;
+  }
 }
