@@ -1,0 +1,34 @@
+.ResumeCard_wrapper {
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #121212;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  min-height: 250px;
+}
+
+.courseNameText {
+  font-size: 28px;
+}
+
+.ResumeCard_wrapper .textblock {
+  font-size: 14px;
+}
+
+.detailsText,
+.instituteText {
+  color: #989898;
+}
+
+.ResumeCard_wrapper .textblock .yearText {
+  color: #ffde02;
+  font-size: 35px;
+}
+
+.instituteText {
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 2;
+}
