@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import NavItem from './NavItem';
+import NavItem from '../Components/NavItem';
 
 function Navbar(){
     return(

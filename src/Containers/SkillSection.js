@@ -1,6 +1,6 @@
 import React from 'react';
 import './SkillSection.css';
-import SkillCard from './SkillCard'
+import SkillCard from '../Components/SkillCard'
 
 function SkillSection(){
     return(

@@ -1,6 +1,6 @@
 import React from 'react';
 import './ResumeSection.css';
-import ResumeCard from './ResumeCard';
+import ResumeCard from '../Components/ResumeCard';
 
 function ResumeSection(){
     return(
