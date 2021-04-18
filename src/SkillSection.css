@@ -40,7 +40,6 @@
   width: 100%;
   max-width: 500px;
   display: flex;
-  grid-gap: 8px;
   gap: 8px;
 }
 
@@ -62,6 +61,16 @@
 
 .loadBar .loadAccent[data-accent="false"] {
   background-color: #241c00;
+}
+
+.skill-cards-wrapper + .button-block,
+.skill-cards-wrapper + .button-block .button-wrapper {
+  justify-content: center;
+}
+
+#SkillSection .section-header .sectionTitle:after{
+  transform: scale(2) translate(0%, 10%);
+  animation: sway2 10s linear 2s infinite alternate;
 }
 
 @media screen and (max-width: 767px){
@@ -88,6 +97,5 @@
 
   #SkillSection .skill-cards-wrapper {
     margin-top: 0;
-    margin-bottom: 70px;
   }
 }

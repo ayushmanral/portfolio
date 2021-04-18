@@ -16,6 +16,11 @@ function SkillSection(){
                 <SkillCard skill="ReactJS" score="5" />
                 <SkillCard skill="Photoshop" score="6" />
             </div>
+            <div className="button-block mt-50 mb-50">
+                <div className="button-wrapper">
+                    <a href={process.env.PUBLIC_URL + '/documents/Ayush_Manral_Resume.pdf'} className="button bg-yellow medium-button pt-10 pb-10" download="Ayush_Manral_Resume">Download CV</a>
+                </div>
+            </div>
         </div>
     );
 }

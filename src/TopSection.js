@@ -12,8 +12,8 @@ function TopSection(){
                 </div>
                 <div className="button-block">
                     <div className="button-wrapper">
-                        <a href="#contact" className="button bg-yellow small-button pt-10 pb-10">Hire Me!</a>
-                        <a href="#projects" className="button small-button pt-10 pb-10">Projects</a>
+                        <a href="#ContactSection" className="button bg-yellow small-button pt-10 pb-10">Hire Me!</a>
+                        <a href="#ResumeSection" className="button small-button pt-10 pb-10">Resume</a>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import TopSection from './TopSection';
 import AboutSection from './AboutSection';
 import ResumeSection from './ResumeSection';
 import SkillSection from './SkillSection';
+import ContactSection from './ContactSection';
 
 function Main(){
     return(
@@ -12,6 +13,7 @@ function Main(){
             <AboutSection/>
             <ResumeSection/>
             <SkillSection/>
+            <ContactSection/>
             {/* <Banner title="Ayush Manral" subtitle="Hi, I'm Delhi based frontend developer who fancies to learn new skills." sectionIdentifier="home" />
             <Banner title="About" subtitle="Everything you need to know about me." sectionIdentifier="about" />
             <Banner title="Skills" subtitle="All the industry relevant skills." sectionIdentifier="skills" />

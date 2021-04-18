@@ -1,0 +1,96 @@
+#ContactSection {
+  flex-direction: column;
+}
+
+#ContactSection .section-header .sectionTitle:after{
+  transform: scale(2) translate(0%, 10%);
+  animation: sway2 10s linear 2s infinite alternate;
+}
+
+.contact-cards-wrapper{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  align-items: center;
+}
+
+.contact-image-block img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom right;
+}
+
+.contact-text-block p {
+  line-height: 1.2;
+  font-size: 24px;
+}
+
+.contact-text-block p span {
+  color: #ffde02;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.contact-text-block {
+  text-align: right;
+  padding: 20px;
+}
+
+.socialLink_wrapper a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-flex; 
+  margin: 5px;
+  background: #0f6daa;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.socialLink_wrapper a.gitLink {
+  background-color: #fff;
+  color: #000;
+}
+
+.socialLink_wrapper a:hover {
+  background: #ffde00;
+  color: #000;
+}
+
+@media screen and (max-width: 767px){
+  #ContactSection {
+    min-height: auto;
+  }
+
+  .section-header {
+    margin-top: 0;
+  }
+
+  .contact-cards-wrapper {
+    margin-top: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-text-block {
+    padding: 0;
+    text-align: left;
+  }
+  
+  .contact-text-block p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .contact-text-block p span {
+    font-size: 18px;
+  }
+}

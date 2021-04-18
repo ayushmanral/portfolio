@@ -8,9 +8,9 @@ function Navbar(){
             <div className="Navbar__container">
                 <NavItem text="Home" sectionID="topSection"/>
                 <NavItem text="About" sectionID="AboutSection"/>
-                <NavItem text="Skills" sectionID="skills"/>
-                <NavItem text="Projects" sectionID="projects"/>
-                <NavItem text="Contact" sectionID="contact"/>
+                <NavItem text="Resume" sectionID="ResumeSection"/>
+                <NavItem text="Skills" sectionID="SkillSection"/>
+                <NavItem text="Contact" sectionID="ContactSection"/>
             </div>
         </section>
     );
